@@ -4,17 +4,17 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class NoAdvancementsInCreative extends JavaPlugin {
 
-	private static NoAdvancementsInCreative plugin;
-	public void onEnable() {
+    private static NoAdvancementsInCreative plugin;
 
-		plugin = this;
+    public void onEnable() {
 
-		getServer().getPluginManager().registerEvents(new Listeners(), this);
-	}
+        plugin = this;
 
-	public static NoAdvancementsInCreative getPlugin() {
+        getServer().getPluginManager().registerEvents(new Listeners(), this);
+    }
 
-		return plugin;
+    public static NoAdvancementsInCreative getPlugin() {
 
-	}
+        return plugin;
+    }
 }
